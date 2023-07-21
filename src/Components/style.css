@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(lightgreen,pink,skyblue);
+    min-height: 100vh;
+  }
+
+.mainContainer{ 
+    padding: 0px;
+    margin: 0px;
+    /* background-image: linear-gradient(lightgreen,pink,skyblue); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-height: 100vh; */
+    overflow-y: hidden;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+}
+.head{
+    font-size: 20px;
+    font-weight: 300px;
+    text-align: center;
+
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.parent{
+    /* width: fit-content; */
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-image: linear-gradient(lightgreen,pink,skyblue);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.box{
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px;
+    background-image: linear-gradient(rgb(221, 221, 136),pink,rgb(0, 255, 170));
+} 
+button{
+    border: 1px solid brown;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: coral;
+    color:white;
+    font-weight: 500px;
+    transition: 1s;
+  }
+  button:hover{
+    background-color: cornflowerblue
+  
+  }
+  .inpt{
+      border-radius: 10px;
+  }
